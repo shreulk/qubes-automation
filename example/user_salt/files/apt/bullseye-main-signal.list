@@ -1,0 +1,6 @@
+deb https://deb.debian.org/debian bullseye main
+
+deb https://deb.debian.org/debian-security bullseye/updates main
+
+deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main
+

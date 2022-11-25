@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo mkdir -p /srv/salt/user_salt/files
+sudo mkdir -p /srv/user_pillar
+sudo chmod 777 /srv/salt/user_salt/ /srv/salt/user_salt/files /srv/user_pillar
+
+cp ./user_pillar/top.sls /srv/user_pillar/
+for f in user_salt/*; do
+    cp "$f" /srv/salt/user_salt
+done
+

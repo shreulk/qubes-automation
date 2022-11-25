@@ -1,0 +1,4 @@
+#!/bin/sh
+
+iptables -I OUTPUT -m owner ! --uid-owner user -j DROP
+ip6tables -I OUTPUT -m owner ! --uid-owner user -j DROP
