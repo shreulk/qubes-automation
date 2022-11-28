@@ -406,7 +406,7 @@ class VM(State):
             minimal_str = "-minimal"
         else:
             minimal_str = ""
-        return f"{os}-{versoin}{minimal_str}"
+        return f"{os}-{version}{minimal_str}"
     def default_appmenu(vm: 'VM', default=[]) -> Optional[str]:
         if default == []:
             vm_name = vm.root_template().get_name()
