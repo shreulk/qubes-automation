@@ -24,7 +24,10 @@ I hate salt.
 https://github.com/shreulk/qubes-automation
 
 ## Who?
-Here is my gpg signing key fingerprint: 90ACF978744E65FC8E326D979311DD635B24B4A7
+
+Here is my PGP signing key fingerprint: `90ACF978744E65FC8E326D979311DD635B24B4A7`.
+
+See `SIGNING_KEY.pub`.
 
 ## How?
 1. Download the repo
@@ -51,8 +54,8 @@ See `example/` directory.
 ## License
 AGPL3+
 
-## Donate
-- XMR:
-- BTC:
+## Donate / Buy me a coffee
+- XMR: 8BxBW2xZwTHEJcLBUcViJtXcgBPZGiL7c2Rtp6HxjLA21KY229zMrqhAJ1uzbUWjAT3PCqUdH1tF4jZBmP68NUtHBhVdTnF
+- BTC: bc1qjs2lptpm8nwatm6j27sqjmqz8lvgqlgqvy4q49
 
 
